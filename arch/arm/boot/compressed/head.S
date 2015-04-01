@@ -10,6 +10,17 @@
  */
 #include <linux/linkage.h>
 
+<<<<<<< HEAD
+=======
+
+#ifdef CONFIG_KEXEC_HARDBOOT
+    #include <asm/kexec.h>
+    #include <asm/memory.h>
+#endif
+
+	.arch	armv7-a
+
+>>>>>>> cbbc1ee... v3.4.87
 /*
  * Debugging stuff
  *
