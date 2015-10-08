@@ -23,7 +23,11 @@ CONFIG_STATE_NOTIFIER=y
 # CONFIG_ALUCARD_HOTPLUG is not set
 # CONFIG_MAKO_HOTPLUG is not set
 CONFIG_BRICKED_HOTPLUG=y
+<<<<<<< HEAD:arch/arm/configs/falcon_defconfig
 CONFIG_MSM_HOTPLUG=y
+=======
+CONFIG_INTELLI_HOTPLUG=y
+>>>>>>> 24301f0... Add intelli_hotplug by @faux123:arch/arm/configs/kaminari_defconfig
 CONFIG_CPU_FREQ_DEFAULT_GOV_YANKACTIVE=y
 # CONFIG_CPU_FREQ_DEFAULT_GOV_BIOSHOCK is not set
 # CONFIG_CPU_FREQ_DEFAULT_GOV_LIONHEART is not set

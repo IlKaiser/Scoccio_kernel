@@ -441,9 +441,13 @@ obj-$(CONFIG_MMI_UNIT_INFO) += mmi-lpm.o
 =======
 obj-$(CONFIG_BRICKED_HOTPLUG) += bricked_hotplug.o
 <<<<<<< HEAD
+<<<<<<< HEAD
 obj-$(CONFIG_INTELLI_HOTPLUG) += intelli_hotplug.o
 
 >>>>>>> b3d6147... msm: intelli_hotplug: Add Intelli Hotplug driver
 =======
 obj-$(CONFIG_MSM_HOTPLUG) += msm_hotplug.o
 >>>>>>> c59ea88... arm: mach-msm: Add msm_hotplug
+=======
+obj-$(CONFIG_INTELLI_HOTPLUG) += intelli_hotplug.o
+>>>>>>> 24301f0... Add intelli_hotplug by @faux123
